@@ -1,0 +1,138 @@
+	#grad1 {
+		height: 200px;
+		background: #dcdbdc; /* For browsers that do not support gradients */
+		background: -webkit-linear-gradient(#dcdbdc, white); /* For Safari 5.1 to 6.0 */
+		background: -o-linear-gradient(#dcdbdc, white); /* For Opera 11.1 to 12.0 */
+		background: -moz-linear-gradient(#dcdbdc, white); /* For Firefox 3.6 to 15 */
+		background: linear-gradient(#dcdbdc, white); /* Standard syntax (must be last) */
+	}
+	.marg-top {
+		margin-top:20px;
+	}
+	.pad-t {
+		padding-top: 20px;
+	}
+	.pad-l {
+		padding-left:10px;
+	}
+	.pad-r {
+		padding-right:10px;
+	}
+	.f-width {
+		width:100%;
+	}
+	.my-jumbotron {
+		background-color:white;min-height:120px;
+	}
+	#logo {
+		margin-left:30px;
+		position:absolute;
+		left:0px;
+	}
+	#top-table {
+		position:absolute; 
+		right:60px;
+	}
+	#members {
+		background-color:#a3a6aa;
+		padding:0.1px 5px;
+		border-style:hidden;
+		box-shadow: 0px 5px 5px #888888;
+	}
+	button.out {
+		background-color: #6b727a; 
+		line-height: 1.7;
+		box-shadow: 0px 5px 5px #888888;
+	}
+	button.out:hover {
+		background-color: #c2bdbf; 
+		line-height: 1.7;
+		box-shadow: 0px 5px 5px #888888;
+	}
+	button.out-more {
+		background-color: #286583;
+	}
+	button.out-more:hover {
+		background-color: #3388b1;
+	}
+	span.in {
+		color:white;
+	}
+	.in-more-pdf {
+		background-color: #286583;
+		color:white;
+	}
+	.in-more-pdf:hover {
+		background-color: #3388b1;
+		color:white;
+	}
+	.in-more {
+		color:white;
+	}
+	.in-more:hover {
+		color:white;
+	}
+	.nav-container {
+		padding:0% 5%;
+	}
+	.thumbnail-style {
+		border-style: groove;
+		box-shadow: 0px 5px 5px #888888;
+	}
+	p.read-more {
+		color:#a9aaac; 
+		font-size:small;
+		font-weight: bold;
+	}
+	p.small-1 {
+		color:#a9aaac; 
+		font-size:small;
+		padding-left:100px;
+		padding-top:5px;
+	}
+	p.small-2 {
+		color:#a9aaac; 
+		font-size:small;
+		padding-left:15px;
+		top:0px;
+	}
+	#contact-box {
+		background-color:white;
+		padding:0px 5px;
+		box-shadow: 0px 5px 5px #888888;
+	}
+	#ext-contact-left {
+		background-color:#e0e2e2;
+		height:540px;
+		padding:20px;
+	}
+	#ext-contact-right {
+		background-color:#dbdddd;
+		height:540px;
+	}
+	nav.bottom {
+		background-color:#a7abb1;
+		color:white;
+		margin-bottom:0px;
+		padding-top:10px;
+	}
+	input[type=text] {
+    background-color:#cfd1d3;
+	width: 90%;
+	}
+	input[type=text]:focus {
+    background-color: white;
+	}
+	input[type=test] {
+    background-color:#cfd1d3;
+	width: 20%;
+	}
+	input[type=test]:focus {
+    background-color: white;
+	}
+	textarea[type=text] {
+    background-color:#cfd1d3;
+	}
+	textarea[type=text]:focus {
+    background-color: white;
+}

@@ -1,0 +1,318 @@
+/* 
+    Theme name: Creative form
+    Date: January 2016
+    Version: 1.0
+    Author: Eftychia Koletsou
+    Author URL: https://github.com/skananitos
+*/
+
+html {
+    overflow-y: scroll; 
+    overflow-x: hidden;
+}
+body {
+    font-family: 'Oswald', sans-serif; 
+    background:#f0eeed; 
+    color: #676767;
+}
+.header:after {
+    content:"";
+    height:0;
+    display:block;
+    visibility:hidden;
+    clear:both;
+}
+.header {
+    background: #d62e61; 
+    border-bottom: 5px solid #ab244d;
+
+}
+.header .branding-title {
+    float: left; 
+    margin-top:1.2%; 
+    margin-left: 5%;
+    font: 0/0 serif; 
+    text-shadow: none; 
+    color: transparent;
+    background:url(../img/branding-title.png) 0 14px no-repeat;
+    padding: 1% 0;
+}
+.header .branding-title a {
+    display: block; 
+    height: 77px; 
+    width: 122px;
+}
+.header .menu {
+    float: right; 
+    margin-top:-1%;
+    position: relative;
+}
+.header .menu li {
+    display: inline-block; 
+    margin: 0; 
+    list-style: none;
+    margin-left: 30px; 
+}
+.header .menu li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    line-height: 85px;
+    margin: 40px 0 0 50px;
+    width: 90px;
+    text-align: right;
+    background: url('../img/nav-sprite.png') no-repeat 0 64px;
+    text-transform: uppercase;
+    white-space: nowrap; 
+}
+.header .menu li a:hover, .header .menu li a:active {
+    color: #c1d62e;
+}
+.header .menu li.products a {
+    background-position: -8px -17px; 
+}
+.header .menu li.about a {
+    background-position: -12px -118px;
+}
+.header .menu li.cart a {
+    width: 90px;
+    font-size: 0/95px serif;
+    text-shadow: none;
+    color: transparent;
+    background-position: -2px -313px;
+    margin-left:20px;
+}
+.header .menu li.cart a:hover {
+    background-position: -1px -226px;
+}
+.page {
+    padding: 2% 3%; 
+    background: white;
+    min-width: 58%;
+    min-height: auto;
+    float: left;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 1% 0 1% 3%;
+}
+.page h1 {
+    font-size: 160%; 
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.6;
+    font-weight: 800; 
+    padding-top: 2%;   
+}
+.page p {
+    width: 50%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    font-size: 110%;
+    text-align: center;
+}
+.centered {
+    text-align: center;
+    margin: 0;
+}
+.avatar {
+    border-radius: 50%;
+    position: inherit;
+}
+form {
+    width: 50%; 
+    margin: 0 auto;
+}
+form tr {
+    border: 1px solid #CCC;
+    background: #f4f3f2;
+}
+form table {
+    width: 100%; 
+    margin-bottom: 16px;
+}
+form th {
+    width: 85px;
+    border-right: 1px solid #CCC;
+    vertical-align: middle;
+    padding: 8px;
+}
+form td {
+    padding: 15px 15px;
+}
+form td input[type="text"],
+form td input[type="date"],
+form td input[type="password"],
+form td input[type="email"] {
+    width: 100%;
+}
+form td input[type="file"] {
+    width: 100%;
+    text-align: left; 
+    font-size: 80%;
+    padding: 14px;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+}
+form td input[type="checkbox"] {
+    text-align: left;
+}
+form input[type="submit"] {
+    width: 100%;
+    text-align: center;
+    border: 1px solid #8e8e46;
+    background: #9aab24;
+    color: #FFF;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;    
+    font-size: 100%;
+    text-transform: uppercase;
+    padding: 14px;
+    font-weight: 600;
+}
+#req {font-size: 80%;}
+.warning {
+    color: #FF0000;
+    font-size: 80%;
+    font-weight: 400;
+}
+.pass-warning {
+    font-size: 80%;
+    font-weight: 400;
+    margin-top: 0;
+    padding-top: 0;
+}
+.errorMsg {
+    color: #008000;
+    font-size: 80%;
+    font-weight: 400;
+}
+.top-sidebar {
+    width: 21%;
+    float: left;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 1% 3% 1% 3%;
+    padding: 2% 3%;
+    background-color: white;
+}
+.middle-sidebar {
+    width: 21%;
+    float: left;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 1% 3% 1% 3%;
+    padding: 2% 3%;
+    background-color: white; 
+}
+.bottom-sidebar {
+    width: 21%;
+    float: left;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 1% 3% 2% 3%;
+    padding: 2% 3%;
+    background-color: white;
+}
+.toggle-nav {
+    display:none;
+}
+@media only screen and (max-width: 768px) {
+    .page {width: 88%;}
+    form {width: 90%;}
+    .top-sidebar {min-width: 88%;}
+    .middle-sidebar {min-width: 88%;}
+    .bottom-sidebar {min-width: 88%;}
+    .header .menu {margin-right: 0;}    
+}
+@media (min-width: 300px) and (max-width: 380px) {
+    .page {width: 88%; font-size: small;}
+    form {width: 85%; margin:0; padding: 0;}
+    form table {font-size: 88%;}
+    .top-sidebar {width: 88%;}
+    .middle-sidebar {width: 88%;}
+    .bottom-sidebar {width: 88%;}
+    .header .menu {
+        margin-top: -30%; 
+        margin-right: 15%;
+        z-index: 999999999;
+    }
+    .header .menu li {
+        display: block; 
+    }
+    .header .menu li.cart a {
+        margin-left:50px;
+    }
+}
+.footer {
+    width: 100%;
+    float: left;
+    background: #e0e0e0;
+    padding: 42px 0;
+    font-size: 75%;
+    color: #a5a5a5;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.footer ul {
+    padding: 0;
+    float: left;
+    margin-left: 3%;
+}
+.footer ul li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+.footer ul li:after {
+    content:" | "
+}
+.footer ul li:last-child:after {
+    content:"";
+}
+.footer p {
+    text-align: right; 
+    margin-right: 3%;
+    padding: 0;
+}
+.footer a {
+    text-decoration: none; 
+    color: #539def; 
+    margin: 0 10px;
+}
+.footer a:hover, .footer a:active {
+    text-decoration: underline;
+}
+/*password strength*/
+
+meter {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;        
+    margin: 0 auto 1em;
+    width: 100%;
+    height: .5em;
+
+    /* Applicable only to Firefox */
+    background: none;
+    background-color: rgba(0,0,0,0.1);
+}
+
+meter::-webkit-meter-bar {
+    background: none;
+    background-color: rgba(0,0,0,0.1);
+}
+meter[value="0"]::-webkit-meter-optimum-value { background: red; }
+meter[value="1"]::-webkit-meter-optimum-value { background: red; }
+meter[value="2"]::-webkit-meter-optimum-value { background: orange; }
+meter[value="3"]::-webkit-meter-optimum-value { background: yellow; }
+meter[value="4"]::-webkit-meter-optimum-value { background: green; }
+
+meter[value="0"]::-moz-meter-bar { background: red; }
+meter[value="1"]::-moz-meter-bar { background: red; }
+meter[value="2"]::-moz-meter-bar { background: orange; }
+meter[value="3"]::-moz-meter-bar { background: yellow; }
+meter[value="4"]::-moz-meter-bar { background: green; }
