@@ -12,4 +12,4 @@ Web portfolio template (HTML, CSS3, Bootstrap, AngularJS)
 
 ### Leaf4Life (registration-form)
 
-This project is a registration form. We use HTML5, Javascript and PHP techniques to validate each field.
+This project is a registration form. Use of HTML5, Javascript and PHP techniques to validate each field.
