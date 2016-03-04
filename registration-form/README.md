@@ -76,14 +76,14 @@ Loading the page the first time presents the user a disclaimer about the usage o
 
 *Step 3.* Clone the leaf4life repository using [git](http://git-scm.com/):
 ```
-git clone https://github.com/skananitos/registration-form.git
+git clone https://github.com/skananitos/webTemplates/tree/master/registration-form.git
 cd registration-form
 ```
 *OR*
 
 If you just want to start a new project without the leaf4life commit history then you can do:
 
-`git clone --depth=1 https://github.com/skananitos/registration-form.git <your-project-name>`
+`git clone --depth=1 https://github.com/skananitos/webTemplates/tree/master/registration-form.git <your-project-name>`
 
 The `depth=1` tells git to only pull down one commit worth of historical data.
 
