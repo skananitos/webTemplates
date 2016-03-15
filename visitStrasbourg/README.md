@@ -1,3 +1,3 @@
 # Visit Strasbourg
 
-A flexible, responsive web template based on Sass.
+A flexible, responsive web template developed by using Sass.
