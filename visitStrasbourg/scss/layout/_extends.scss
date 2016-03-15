@@ -1,0 +1,31 @@
+%center-text {
+ text-align: center;
+}
+
+%top-border {
+  border-top: 2px solid $color-border-light;
+}
+
+%container {
+  width: 75%;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+  max-width: 960px;
+  @media #{$brk-wide} {
+    width: 90%;
+  }
+  @media #{$brk-narrow} {
+    width: 100%;
+    padding: 20px;
+    border-top: none;
+  }
+}
+
+%clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}

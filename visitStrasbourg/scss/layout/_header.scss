@@ -1,0 +1,13 @@
+.header {
+  @extend %center-text;
+  padding-top: 170px;
+  height: 850px;
+  background: linear-gradient($color-main, transparent 90%),
+              linear-gradient(0deg, $color-body, transparent),
+              $color-main url('#{$path-img}/house.jpg') no-repeat center;
+  background-size: cover;
+  @media #{$brk-narrow} {
+    max-height: 380px;
+    padding: 50px 25px 0;
+  }
+}

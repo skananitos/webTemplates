@@ -1,0 +1,9 @@
+.footer {
+  @extend %center-text;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  border-bottom: 10px solid $color-border-dark;
+  @media #{$brk-narrow} {
+  	padding: 20px 0;
+  }
+}

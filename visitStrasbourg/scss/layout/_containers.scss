@@ -1,0 +1,25 @@
+// Containers
+
+.overview {
+  @extend %container;
+  @extend %center-text;
+  @extend %top-border;
+	padding-top: 25px;
+  padding-bottom: 95px;
+}
+
+.sights {
+  color: $color-text-light;
+  text-align: left;
+  padding: 18% 24%;
+  border-top: 10px solid $color-border-dark;
+  margin: 105px 0 60px;
+  background: $color-second url('#{$path-img}/grandeile.jpg') no-repeat center;
+  background-size: cover;
+  box-shadow: inset 0 0 50px 10px $color-shadow;
+  border-radius: $br;
+  @media #{$brk-wide} {
+    padding: 10% 12%;
+    margin: 50px 0 20px;
+  }
+}

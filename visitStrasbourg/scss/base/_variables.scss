@@ -1,0 +1,43 @@
+// Descriptive color variables
+
+$white          : #fff;
+$black          : #000;
+$grey           : #878787;
+$danube			: #6992d6;
+$big-stone      : #152433;
+$seance  		: #770f8b;
+
+// Functional color variables
+
+$color-main         : $seance;
+$color-second       : $big-stone;
+$color-body         : $white;
+$color-shadow       : rgba($black,.8);
+
+$color-text-light   : $white;
+$color-text-base    : $grey;
+$color-text-dark    : $big-stone;
+
+$color-border-light : lighten($grey, 35%);
+$color-border-dark  : $seance;
+
+$color-link-default : $seance;
+$color-link-visited : $danube;
+
+
+// Fonts
+
+$fonts-serif : 'Narkisim', serif;
+
+// Border radius
+
+$br: 12px;
+
+// Asset paths
+
+$path-img  : '../img';
+
+// Media query breakpoints
+
+$brk-narrow : '(max-width: 768px)';
+$brk-wide   : '(max-width: 1024px)';
