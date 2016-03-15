@@ -17,4 +17,4 @@ This project is a registration form. Use of HTML5, Javascript and PHP techniques
 
 ### Visit Strasbourg
 
-A flexible, responsive web template based on Sass.
+A flexible, responsive web template developed by using Sass.
