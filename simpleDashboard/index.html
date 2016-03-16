@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="simple dashboard">
+    <meta name="author" content="skananitos">
+
+    <title>A Simple Dashboard</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/dashboard.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Navbar
+    ================================================== -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">myDashboard</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <input type="text" class="form-control" placeholder="Search...">
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row"> 
+
+        <!-- Sidebar
+        ================================================== -->
+        <div class="col-sm-3 col-md-2 sidebar">
+          <h3 class="page-header">Add widget</h3>
+          <form action="mode">
+            <input type="text" class="form-control" placeholder="Text widget title" id="title">
+            <textarea class="form-control" placeholder="Type your text" rows="3" id="text"></textarea>
+            <input type="text" class="form-control" placeholder="Simple text widget notes" id="notes">
+            <button type="button" class="btn btn-default" aria-label="Left Align" id="newWidget">Add</button> 
+          </form>
+        </div>
+
+
+        <!-- Widgets - Grid area
+        ================================================== -->
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">Dashboard</h1>
+
+          <div class="display draggable-element"></div>
+
+            <div class="col-sm-6 col-md-4 draggable-element">
+            <div class="widget-wrapper">
+              <div class="widget-title">
+              Text widget title A
+              <button type="button" class="btn btn-default widget-remove" aria-label="Left Align">
+                <span class="glyphicon glyphicon-remove " aria-hidden="true"></span>
+              </button>                
+              </div>
+              <div class="widget-stage">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lectus ligula, laoreet at odio quis, pellentesque vestibulum quam. Etiam posuere bibendum leo sit amet feugiat. Morbi blandit blandit cursus. Etiam at tellus et nisl gravida commodo sit amet sed lectus. Mauris felis magna, ullamcorper volutpat augue eu, accumsan placerat lectus. Praesent tincidunt libero enim, interdum imperdiet orci sagittis at. Nunc vehicula tempor feugiat. Pellentesque ut tortor id nulla finibus suscipit in sed lectus.
+              </div>
+              <div class="widget-notes">
+                Simple text widget notes
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-sm-6 col-md-4 draggable-element">
+            <div class="widget-wrapper">
+              <div class="widget-title">
+                Text widget title B
+                <button type="button" class="btn btn-default widget-remove" aria-label="Left Align">
+                  <span class="glyphicon glyphicon-remove " aria-hidden="true"></span>
+                </button> 
+              </div>
+              <div class="widget-stage">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lectus ligula, laoreet at odio quis, pellentesque vestibulum quam. Etiam posuere bibendum leo sit amet feugiat. Morbi blandit blandit cursus. Etiam at tellus et nisl gravida commodo sit amet sed lectus. Mauris felis magna, ullamcorper volutpat augue eu, accumsan placerat lectus. Praesent tincidunt libero enim, interdum imperdiet orci sagittis at. Nunc vehicula tempor feugiat. Pellentesque ut tortor id nulla finibus suscipit in sed lectus.
+              </div>
+              <div class="widget-notes">
+                Simple text widget notes
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 draggable-element">
+            <div class="widget-wrapper">
+              <div class="widget-title">
+                Text widget title C
+                <button type="button" class="btn btn-default widget-remove" aria-label="Left Align">
+                  <span class="glyphicon glyphicon-remove " aria-hidden="true"></span>
+                </button> 
+              </div>
+              <div class="widget-stage">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lectus ligula, laoreet at odio quis, pellentesque vestibulum quam. Etiam posuere bibendum leo sit amet feugiat. Morbi blandit blandit cursus. Etiam at tellus et nisl gravida commodo sit amet sed lectus. Mauris felis magna, ullamcorper volutpat augue eu, accumsan placerat lectus. Praesent tincidunt libero enim, interdum imperdiet orci sagittis at. Nunc vehicula tempor feugiat. Pellentesque ut tortor id nulla finibus suscipit in sed lectus.
+              </div>
+              <div class="widget-notes">
+                Simple text widget notes
+              </div>
+            </div>
+          </div>
+    <!-- end of three -->
+          <div class="col-sm-6 col-md-4 draggable-element">
+            <div class="widget-wrapper">
+              <div class="widget-title">
+                Text widget title D
+                <button type="button" class="btn btn-default widget-remove" aria-label="Left Align">
+                  <span class="glyphicon glyphicon-remove " aria-hidden="true"></span>
+                </button> 
+              </div>
+              <div class="widget-stage">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lectus ligula, laoreet at odio quis, pellentesque vestibulum quam. Etiam posuere bibendum leo sit amet feugiat. Morbi blandit blandit cursus. Etiam at tellus et nisl gravida commodo sit amet sed lectus. Mauris felis magna, ullamcorper volutpat augue eu, accumsan placerat lectus. Praesent tincidunt libero enim, interdum imperdiet orci sagittis at. Nunc vehicula tempor feugiat. Pellentesque ut tortor id nulla finibus suscipit in sed lectus.
+              </div>
+              <div class="widget-notes">
+                Simple text widget notes
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 draggable-element">
+            <div class="widget-wrapper">
+              <div class="widget-title">
+                Text widget title E
+                <button type="button" class="btn btn-default widget-remove" aria-label="Left Align">
+                  <span class="glyphicon glyphicon-remove " aria-hidden="true"></span>
+                </button> 
+              </div>
+              <div class="widget-stage">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lectus ligula, laoreet at odio quis, pellentesque vestibulum quam. Etiam posuere bibendum leo sit amet feugiat. Morbi blandit blandit cursus. Etiam at tellus et nisl gravida commodo sit amet sed lectus. Mauris felis magna, ullamcorper volutpat augue eu, accumsan placerat lectus. Praesent tincidunt libero enim, interdum imperdiet orci sagittis at. Nunc vehicula tempor feugiat. Pellentesque ut tortor id nulla finibus suscipit in sed lectus.
+              </div>
+              <div class="widget-notes">
+                Simple text widget notes
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 draggable-element">
+            <div class="widget-wrapper">
+              <div class="widget-title">
+                Text widget title F
+                <button type="button" class="btn btn-default widget-remove" aria-label="Left Align">
+                  <span class="glyphicon glyphicon-remove " aria-hidden="true"></span>
+                </button> 
+              </div>
+              <div class="widget-stage">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lectus ligula, laoreet at odio quis, pellentesque vestibulum quam. Etiam posuere bibendum leo sit amet feugiat. Morbi blandit blandit cursus. Etiam at tellus et nisl gravida commodo sit amet sed lectus. Mauris felis magna, ullamcorper volutpat augue eu, accumsan placerat lectus. Praesent tincidunt libero enim, interdum imperdiet orci sagittis at. Nunc vehicula tempor feugiat. Pellentesque ut tortor id nulla finibus suscipit in sed lectus.
+              </div>
+              <div class="widget-notes">
+                Simple text widget notes
+              </div>
+            </div>
+          </div>
+    <!-- end of three -->
+        </div>
+      </div>
+    </div>
+
+
+
+    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/drag-arrange.js"></script>
+    <script src="js/new-widget.js"></script>
+  </body>
+</html>
