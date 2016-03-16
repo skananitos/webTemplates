@@ -18,3 +18,8 @@ This project is a registration form. Use of HTML5, Javascript and PHP techniques
 ### Visit Strasbourg
 
 A flexible, responsive web template developed by using Sass.
+
+
+### Simple Dashboard
+
+A single page app which functions as a simple dashboard developed by using HTML, CSS, Bootstrap and Javascript. 
