@@ -1,13 +1,9 @@
-<!--
-	Project name: Leaf4Life
-	Version: 1.0
-	Author: Eftychia Koletsou
-	Author info: http://github.com/skananitos
-	Date: January, 2016
--->
-
 # Leaf4Life
 This project is a registration form. We use HTML5, Javascript and PHP techniques to validate each field.
+
+
+![alt tag](https://github.com/skananitos/webTemplates/blob/master/registration-form/preview.png)
+
 
 ### Concept:
 
