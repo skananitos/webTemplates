@@ -18,3 +18,8 @@ A flexible, responsive web template developed by using Sass.
 ### Simple Dashboard
 
 A single page app which functions as a simple dashboard developed by using HTML, CSS, Bootstrap and Javascript. 
+
+
+### Photo Gallery
+
+A simple JavaScript photo gallery. On mouse over each thumb image, the main div changes the source image and the text.
