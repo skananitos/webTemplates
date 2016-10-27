@@ -28,3 +28,8 @@ A simple JavaScript photo gallery. On mouse over each thumb image, the main div 
 ### Billing Form
 
 JavaScript code that enables auto-complete on the form. 
+
+
+### Sass Icons
+
+Examples of sass code for creating multiple icons with similar attributes without repeating lines of code. You can test the result on: [sassmeister | http://www.sassmeister.com/]
