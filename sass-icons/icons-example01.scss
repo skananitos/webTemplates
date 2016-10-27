@@ -1,0 +1,38 @@
+// mixin for squares
+@mixin square($edge-length) {
+  width: $edge-length;
+  height: $edge-length;
+}
+ 
+// simple list with name: value pairs
+$icons: (
+  default: 16px,
+  big: 32px,
+  rect: (50px, 20px) // can also contain (width, height) values
+);
+ 
+// generate selectors for square icons
+@each $name, $value in $icons {
+  .icon-#{$name} {
+     
+    @if type-of($value) == "list" {
+      width: nth($value, 1);
+      height: nth($value, 2);
+    } @else {
+      @include square($value);
+    }  
+     
+  }
+}
+ 
+// create a selector list based on $icons list
+$icon-selectors: ();
+@each $name, $value in $icons {
+  $icon-selectors: append($icon-selectors, unquote(".icon-#{$name}"), 'comma');
+}
+ 
+#{$icon-selectors} {
+    // put here styles that apply to all outer surrounding elements
+    display: inline-block; // that way SVG's can float like all inline elements
+    border: 1px solid orange; // just for testing
+}

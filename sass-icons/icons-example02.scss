@@ -1,0 +1,28 @@
+@mixin symmetric-block($edge-length, $display-option) {
+  width: $edge-length;
+  height: $edge-length;
+  display: $display-option;
+}
+
+// list with name: value pairs
+$icons: (
+  default: (rem-calc(14), inline-block),
+  medium: (rem-calc(16), block),
+  large: (rem-calc(18), inline-block),
+  xlarge: (rem-calc(37), auto, inline-block),
+  logo: (rem-calc(68), auto, inline-block)
+);
+
+// generate selecotrs for svg icons
+@each $name, $value in $icons {
+  .icon-#{$name} svg {
+
+    @if length($value) == 3 {
+      width: nth($value, 1);
+      height: nth($value, 2);
+      display: nth($value, 3);        
+    } @else {
+      @include symmetric-block((nth($value, 1)), nth($value, 2));
+    }
+  }
+}
